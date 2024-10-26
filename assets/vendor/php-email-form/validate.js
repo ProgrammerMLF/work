@@ -68,7 +68,7 @@
       }
     })
     .catch((error) => {
-      displayError(thisForm, error);
+      displayError(thisForm, "Error: We are working on this");
     });
   }
 
